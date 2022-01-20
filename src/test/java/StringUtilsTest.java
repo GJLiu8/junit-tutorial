@@ -20,12 +20,10 @@ class StringUtilsTest {
     }
 
     Config config;
-
     @BeforeEach
     void setUp() {
         this.config = new Config();
     }
-
     @AfterEach
     void tearDown() {
         this.config = null;
